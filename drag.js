@@ -6,8 +6,8 @@ function drag(id){
 		disx = ev.pageX - obj.offsetLeft;
 		disx = ev.pageY - obj.offsetTop;
 		document.onmousemove = function(ev){
-			obj.style.left = ev.pageX - disx + 'px';
-			obj.style.top = ev.pageY - disy + 'px';
+			obj.style.left = ev.pageX - clientX + 'px';
+			obj.style.top = ev.pageY - clientY + 'px';
 		}
 	}
 }
