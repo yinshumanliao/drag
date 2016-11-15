@@ -1,9 +1,9 @@
 function drag(id){
-	var disX = 0;
-	var disY = 0;
+	var disx = 0;
+	var disy = 0;
 	var obj = document.getElementById(id);
 	obj.onmousedown = function(ev){
-		disX = ev.pageX - obj.offsetLeft;
-		disY = ev.pageY - obj.offsetTop;
+		disx = ev.pagex - obj.offsetLeft;
+		disx = ev.pagex - obj.offsetTop;
 	}
 }
